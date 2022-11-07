@@ -1,0 +1,5 @@
+<h2 (click)="toggleDisplay()">{{dev.firstName}} {{dev.lastName}}</h2>
+<div *ngIf="display">
+    <h4>Year: {{dev.year}}</h4>
+    <h4>Innovation: {{dev.innovation}}</h4>
+</div>
